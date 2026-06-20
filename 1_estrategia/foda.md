@@ -6,7 +6,7 @@ Este documento presenta una matriz de planificación estratégica avanzada (FODA
 
 ## 1. Resumen Ejecutivo
 
-La modernización del sistema de gestión legislativa mediante Git representa un salto cualitativo desde el **"Derecho en papel"** hacia el **"Derecho como Código"**. Este análisis evalúa la viabilidad del proyecto, cruzando las capacidades técnicas inherentes de Git (factores internos) con el contexto político, social y tecnológico de la Argentina (factores externos). 
+La modernización del sistema de gestión legislativa mediante Git representa un salto cualitativo desde el **"Derecho en papel"** hacia la **"Codificación digital de la legislación"**. Este análisis evalúa la viabilidad del proyecto, cruzando las capacidades técnicas inherentes de Git (factores internos) con el contexto político, social y tecnológico de la Argentina (factores externos). 
 
 El objetivo de este documento es dotar al proyecto de un marco de decisión estratégico para mitigar riesgos regulatorios y políticos, al tiempo que maximiza el impacto de la transparencia pública y la integración con la Inteligencia Artificial.
 
@@ -56,7 +56,7 @@ Son las tendencias del entorno digital y político que el proyecto puede aprovec
 Son los riesgos externos (políticos, sociales, de seguridad o legales) que pueden bloquear o deslegitimar el proyecto:
 
 1.  **Resistencia Cultural y Política a la Transparencia:** Sectores burocráticos o políticos pueden oponerse a un sistema que expone públicamente el historial de cambios, debates, y qué asesores modificaron líneas específicas de proyectos impositivos o de presupuesto.
-2.  **Vacíos Legales y Fricción Regulatoria:** La normativa actual exige firmas físicas o procedimientos digitales tradicionales. Validar judicialmente un "Merge (fusión)" o un "Commit (registro de cambio)" como promulgación legal requerirá reformas constitucionales o de leyes de procedimiento administrativo.
+2.  **Vacíos Legales y Fricción Regulatoria:** La normativa actual exige firmas físicas o procedimientos digitales tradicionales. Validar judicialmente el repositorio de Git como la fuente oficial de texto consolidado (en reemplazo o complemento del Boletín Oficial tradicional) requerirá reformas reglamentarias o de leyes de procedimiento administrativo.
 3.  **Amenazas a la Ciberseguridad Nacional:** Los repositorios públicos del Estado son blanco constante de ataques. Si la infraestructura central es hackeada o se suplantan identidades para modificar leyes vigentes en Git, la crisis institucional sería masiva.
 4.  **Brecha Digital e Inequidad de Acceso:** Si el sistema web no se diseña con altos estándares de accesibilidad, se corre el riesgo de centralizar el acceso real a la legislación únicamente en profesionales y sectores urbanos con conectividad avanzada.
 5.  **Conflictividad Sindical:** Resistencia por parte de los gremios estatales al interpretar la automatización de la compilación normativa como una amenaza para los puestos de trabajo dedicados a la redacción y ordenamiento de digestos tradicionales.

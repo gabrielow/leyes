@@ -74,3 +74,8 @@ Historial consolidado de la evolución metodológica del proyecto:
 *   **Fase 5 (Reestructuración Optimizada):**
     *   Reorganización física de los documentos en carpetas conceptuales (`1_estrategia`, `2_tecnica_y_casos`, `3_comunicacion`).
     *   Creación del Ledger de Desarrollo (`ROADMAP.md`).
+*   **Fase 6 (Ajuste Terminológico Estratégico):**
+    *   Reemplazo de la expresión "Derecho como Código" por "Codificación digital de la legislación" en todo el corpus documental para mitigar resistencia semántica y alinear el proyecto con la tradición jurídica continental.
+*   **Fase 7 (Alineación Constitucional y Mitigación de Sesgo Técnico):**
+    *   Corrección conceptual en los documentos para desvincular los términos técnicos de Git (Merge, Pull Request) de los actos constitucionales soberanos (Sanción, Promulgación).
+    *   Remoción de analogías de programación informales ("bugs", "variables y subrutinas") reemplazándolas por conceptos de la ciencia jurídica formal (antinomias, lagunas normativas, sistemas de reglas interconectadas).

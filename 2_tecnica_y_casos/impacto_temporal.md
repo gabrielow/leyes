@@ -100,23 +100,23 @@ graph LR
 *   **Problema Común:** Un legislador presenta un proyecto de ley que establece sanciones penales basándose en las multas reguladas en el *"Artículo 45 de la Ley 24.156"*, el cual fue derogado hace un año, haciendo a la nueva ley inaplicable tras su sanción.
 *   **Solución con Git:** Cuando el proyecto de ley es cargado en la rama propuesta (Pull Request), un motor de integración continua (CI/CD) analiza el archivo Markdown automáticamente. El script de validación (linter) busca el texto en el repositorio activo de leyes vigentes. Al no encontrarlo, emite un reporte de error de referencia rota, permitiendo corregir el error en etapa de comisión.
 
-#### Escenario G: Iniciativa Popular mediante "Pull Requests" (Proposición Ciudadana Directa)
+#### Escenario G: Iniciativa Popular asistida por "Pull Requests" (Propuesta Ciudadana de Texto Estructurado)
 *   **Problema Común:** Un grupo de ciudadanos u ONGs quiere proponer una reforma para proteger los humedales. Tradicionalmente, deben juntar cientos de miles de firmas físicas en papel en un proceso costoso de nula transparencia.
-*   **Solución con Git:** Los ciudadanos realizan una bifurcación (**Fork** -copia de repositorio independiente-) del repositorio oficial de leyes ambientales, escriben el artículo propuesto en el archivo Markdown y abren un **Pull Request (PR)** al repositorio del Congreso. La propuesta queda visible públicamente para toda la sociedad, obligando a los legisladores a debatirla o rechazarla con fundamentos públicos visibles en el historial.
+*   **Solución con Git:** Los ciudadanos acceden a la copia del repositorio oficial de leyes ambientales, proponen la redacción del artículo sobre el archivo Markdown y presentan una propuesta de incorporación de cambios (**Pull Request**) al repositorio del Congreso. La propuesta queda visible públicamente para toda la sociedad, facilitando a los legisladores su análisis técnico y debate político.
 
 #### Escenario H: Debate y Corrección Colaborativa en Línea (Issues y Comentarios de Línea)
 *   **Problema Común:** Las audiencias públicas para debatir leyes complejas son de difícil acceso y no permiten que expertos o ciudadanos del interior del país opinen técnicamente sobre artículos específicos.
 *   **Solución con Git:** El proyecto de ley se expone en la plataforma de Git. Cualquier ciudadano o especialista puede abrir un hilo de discusión (**Issue**) o comentar sobre una **línea de texto específica** del proyecto de ley de forma asincrónica.
 
-#### Escenario I: Cooperación Federada entre Municipios (Forks de Ordenanzas)
+#### Escenario I: Cooperación Federada entre Municipios (Adopción de Ordenanzas Modelo)
 *   **Problema Común:** Un municipio pequeño quiere regular el tratamiento de residuos electrónicos, pero carece de un equipo de abogados para redactar la ordenanza desde cero.
-*   **Solución con Git:** El municipio pequeño realiza un **Fork** del repositorio de ordenanzas de un municipio que cuenta con una norma probada y moderna (ej. Rosario). Copian el archivo en su propio repositorio, adaptan los nombres y lo sancionan. Si el municipio pequeño realiza una mejora técnica en el texto, puede enviar una propuesta de vuelta (**Pull Request**) para que la incorporen, generando una red federal colaborativa de legislación municipal.
+*   **Solución con Git:** El municipio pequeño adopta como referencia el repositorio de ordenanzas de un municipio que cuenta con una norma probada y moderna (ej. Rosario). Adapta el texto a su realidad local y lo sanciona formalmente. Si el municipio pequeño introduce mejoras técnicas en la redacción, puede proponer de vuelta (**Pull Request**) la incorporación de esas mejoras al modelo original, generando una red federal colaborativa de legislación municipal.
 
 ---
 
-## Conclusión: Del "Derecho en Papel" al "Derecho como Código"
+## Conclusión: Del "Derecho en Papel" a la "Codificación Digital de la Legislación"
 
-El impacto final es la transición del derecho analógico hacia el **"Derecho como Código" (Law as Code)**. 
+El impacto final es la transición del derecho analógico hacia la **"Codificación digital de la legislación"**. 
 
 Al tratar las leyes con las herramientas con las que se construye el software más complejo del mundo:
 1.  **Eliminamos la incertidumbre jurídica formal.**

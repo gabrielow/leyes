@@ -15,7 +15,7 @@ El sistema legislativo actual publica normas en formatos estáticos (PDF o escan
 **Leyes.ar transforma este paradigma:**
 1. **La Ley como Texto Estructurado (Markdown - formato de texto plano estructurado):** Las normas se convierten en archivos de texto plano estructurado dentro de repositorios seguros.
 2. **Historial de Cambios en una Línea de Tiempo (Git):** Cada reforma es un "commit" (registro de cambio o confirmación) que muestra con precisión quirúrgica qué palabra cambió, cuándo, quién lo propuso y por qué.
-3. **El Debate como Colaboración (Pull Requests - propuestas de incorporación de cambios):** Los proyectos de ley se debaten de forma transparente sobre la redacción final propuesta.
+3. **Co-creación y Transparencia en la Redacción (Pull Requests - propuestas de incorporación de cambios):** Los borradores y proyectos de ley se estructuran de forma transparente sobre la redacción final propuesta, facilitando el trabajo de comisiones.
 4. **Calidad Garantizada (CI/CD - Integración y Despliegue Continuo / Automatización de procesos):** Validadores automáticos detectan contradicciones, errores de numeración o referencias normativas rotas antes de que se sancione la ley.
 
 ```mermaid
@@ -49,7 +49,7 @@ La legislación argentina actual, en sus tres niveles del Estado (Nacional, Prov
 Modernizar y transparentar el proceso de creación, modificación y consolidación legislativa en la República Argentina mediante la adopción de tecnologías de control de versiones distribuidas (Git) e infraestructura de datos abiertos. Buscamos erradicar la inseguridad jurídica formal y facilitar la auditoría cívica directa en la confección de las leyes nacionales, provinciales y ordenanzas municipales.
 
 ### Visión
-Posicionar a la Argentina como líder global en innovación pública y calidad democrática, convirtiendo su cuerpo legislativo completo en un sistema digital inmutable, interconectado y estructurado ("Derecho como Código"). Proyectamos un futuro donde la legislación nacional sea una infraestructura abierta y soberana, de fácil acceso y comprensión tanto para los ciudadanos como para los sistemas avanzados de Inteligencia Artificial.
+Posicionar a la Argentina como líder global en innovación pública y calidad democrática, convirtiendo su cuerpo legislativo completo en un sistema digital inmutable, interconectado y estructurado ("Codificación digital de la legislación"). Proyectamos un futuro donde la legislación nacional sea una infraestructura abierta y soberana, de fácil acceso y comprensión tanto para los ciudadanos como para los sistemas avanzados de Inteligencia Artificial.
 
 ### Objetivos
 
@@ -76,8 +76,8 @@ Implementar **Leyes.ar** como la plataforma tecnológica y estándar metodológi
 | **Archivo (Markdown)** | Una ley, código (Civil, Penal) u ordenanza individual. |
 | **Commit (registro de cambio)** | Una reforma o enmienda promulgada. Cada commit incluye el texto modificado, la fecha, el autor y el mensaje justificativo (exposición de motivos). |
 | **Branch (Rama)** | Un **Proyecto de Ley** en debate. Permite proponer cambios sin alterar la ley vigente (rama principal). |
-| **Pull Request / Merge Request (propuesta de incorporación de cambios)** | El debate legislativo y parlamentario. Espacio donde se revisan los cambios propuestos, se sugieren correcciones y se debate públicamente antes de la votación. |
-| **Merge (Fusión / unificación de ramas)** | La **Sanción y Promulgación** de la ley. Los cambios propuestos se incorporan oficialmente al texto vigente. |
+| **Pull Request / Merge Request (propuesta de incorporación de cambios)** | El borrador de proyecto o dictamen en comisión. Espacio técnico de co-creación donde se revisan los cambios de redacción propuestos antes de la votación parlamentaria. |
+| **Merge (Fusión / unificación de ramas)** | La **Consolidación Técnica e Incorporación Oficial** del texto sancionado y promulgado de la ley al corpus vigente de la jurisdicción. |
 | **Tag (Etiqueta de versión)** | El número de ley oficial y su publicación en el Boletín Oficial (ej. `v-ley-27541`). |
 
 ### Delimitación Conceptual: La Naturaleza de los Códigos y su Interpretación Algorítmica
@@ -93,7 +93,7 @@ La innovación radica en **sumar la concepción de la interpretación de algorit
     *   Esta visión permite que las herramientas tecnológicas ayuden a verificar la consistencia formal (evitando contradicciones explícitas, referencias rotas o contradicciones lógicas involuntarias) sin inmiscuirse en la valoración política ni en el espíritu de la ley.
     *   La ley se lee y se aplica conforme a la doctrina jurídica clásica, pero su *trazabilidad temporal* se gestiona con el rigor de un sistema de control de versiones inmutable.
 3.  **Capa Operativa, No Sustancial:**
-    El control de versiones mediante Git actúa como una infraestructura técnica de soporte. El "Derecho como Código" es un enfoque operativo para erradicar la inseguridad jurídica formal y facilitar el acceso ciudadano y tecnológico a las normas, garantizando que el significado y la esencia de los códigos tradicionales permanezcan inalterados y protegidos frente a fallos de consolidación y dispersión normativa.
+    El control de versiones mediante Git actúa como una infraestructura técnica de soporte. La "Codificación digital de la legislación" es un enfoque operativo para erradicar la inseguridad jurídica formal y facilitar el acceso ciudadano y tecnológico a las normas, garantizando que el significado y la esencia de los códigos tradicionales permanezcan inalterados y protegidos frente a fallos de consolidación y dispersión normativa.
 
 ---
 

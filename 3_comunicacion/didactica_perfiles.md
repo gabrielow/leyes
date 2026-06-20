@@ -1,4 +1,4 @@
-# El Derecho como Código y la Tecnología Git: Guía para Tres Perfiles
+# Codificación Digital de la Legislación y la Tecnología Git: Guía para Tres Perfiles
 
 Este documento presenta la explicación didáctica y la fundamentación del proyecto **Leyes.ar** adaptada para tres tipos de audiencias: perfil no técnico, perfil técnico-jurídico y perfil tecnológico. Su diseño modular y estructurado está optimizado para la creación de infografías y diapositivas de presentaciones.
 
@@ -12,7 +12,7 @@ El derecho opera exactamente bajo la misma estructura lógica: **es un sistema d
 $$\text{Si ocurre el Hecho Imponible (A)} \longrightarrow \text{Se aplica la Consecuencia Jurídica (B)}$$
 $$\text{De lo contrario (Else -de lo contrario-)} \longrightarrow \text{Se aplica (C)}$$
 
-Cuando una legislatura sanciona una reforma, está modificando el "código fuente" de la sociedad. Si esa modificación se realiza sin control de versiones, el "sistema operativo" del Estado genera inconsistencias (lagunas o contradicciones normativas), que equivalen a "bugs" (errores de código) en un programa informático.
+Cuando una legislatura sanciona una reforma, está modificando la estructura del ordenamiento normativo. Si esa modificación se realiza sin control de versiones, el sistema del Estado puede generar inconsistencias o contradicciones normativas (similares a los errores en un sistema informático).
 
 > [!NOTE]
 > **Aclaración de alcance:** Esta interpretación no altera en absoluto la naturaleza del derecho de fondo ni el significado y aplicación jurisprudencial de los códigos vigentes (como el Código Civil y Comercial, el Código Penal, etc.). La noción de "algoritmo" y "código" se añade únicamente como una analogía y herramienta operativa para optimizar el ordenamiento lógico y el seguimiento preciso de sus modificaciones temporales.
@@ -44,8 +44,8 @@ Toda tu vida está guiada por estas reglas lógicas. Si las leyes no se ordenan 
 **Git es un motor de control de versiones y auditoría de textos planos.** A diferencia de los procesadores de texto tradicionales (que guardan archivos estáticos de forma lineal), Git registra la evolución temporal de una biblioteca completa de documentos. Cada cambio se agrupa en un hito inmutable (**Commit** -registro o confirmación de cambio-) respaldado por una firma criptográfica.
 
 ### ¿Por qué las leyes son un sistema de código o algoritmo?
-La norma jurídica posee una estructura lógica idéntica a un condicional informático (Juicio Hipotético): **Supuesto de Hecho $\to$ Consecuencia Jurídica**. El ordenamiento jurídico es un algoritmo social donde las leyes interactúan entre sí como variables y subrutinas. 
-*   **El problema legal:** Las reformas desordenadas provocan derogaciones tácitas y vacíos legales (inconsistencias lógicas del algoritmo).
+La norma jurídica posee una estructura lógica idéntica a un condicional (Juicio Hipotético): **Supuesto de Hecho $\to$ Consecuencia Jurídica**. El ordenamiento jurídico opera como un sistema de reglas lógicas interconectadas. 
+*   **El problema legal:** Las reformas desordenadas provocan derogaciones tácitas, antinomias y vacíos legales (inconsistencias en la estructura lógica del sistema).
 *   **Ejemplo Práctico 1 (Trazabilidad Impositiva):** En un litigio tributario, en vez de buscar en boletines históricos qué tasa impositiva regía en 2021, Git te permite retroceder el repositorio al día exacto del hecho. Verás el **"Diff" visual (comparación visual de cambios)** donde la tasa vieja se resalta en rojo y la nueva en verde, asociado al número de ley que la promulgó.
 *   **Ejemplo Práctico 2 (Evitar la Referencia Rota):** Si un legislador redacta un proyecto penal citando al *"Artículo 10 de la Ley de Sociedades"*, pero esa ley fue reformada y el artículo ya no existe, el validador automático (linter -validador de formato y estilo-) avisa del error antes de la votación, impidiendo la promulgación de una ley inaplicable.
 
@@ -64,7 +64,7 @@ Un digesto de leyes es una **Máquina de Estados Finita** en formato de texto pl
 *   **Legislación como código fuente:**
     *   **Main Branch (rama principal):** La Constitución y las leyes vigentes representan la rama de producción (`main` -rama principal-).
     *   **Branching (Ramas -bifurcaciones-):** Cada proyecto de ley o dictamen de comisión es un branch (rama) de desarrollo (`feature/proyecto-ley-X`).
-    *   **Pull Requests (solicitudes de cambios) & Code Review (revisión de código):** El debate en comisiones es un proceso de revisión de código colaborativo. Los legisladores y asesores sugieren parches e iteran sobre líneas de código específicas.
-    *   **CI/CD (automatización de procesos) & Linting (validación automática de formato):** La validación formal es un pipeline (flujo de trabajo automatizado) que ejecuta parsers (analizadores sintácticos) para verificar la integridad referencial del grafo (comprobando que no haya punteros nulos o referencias a leyes obsoletas).
-    *   **Merge (Fusión):** La promulgación es la fusión del Pull Request (solicitud de cambios) en la rama principal (`main`), firmada digitalmente con claves GPG (sistema criptográfico de firmas) por la autoridad técnica (Mesa de Consolidación).
+    *   **Pull Requests & Code Review (propuestas de cambios y revisión de textos):** El trabajo en comisiones se beneficia de la revisión colaborativa. Los asesores y legisladores proponen enmiendas específicas directamente sobre el texto en debate.
+    *   **CI/CD (automatización de procesos) & Linting (validación automática de formato):** La validación formal es un pipeline (flujo de trabajo automatizado) que ejecuta parsers (analizadores sintácticos) para verificar la integridad de las referencias jurídicas del grafo (comprobando que no haya referencias a leyes derogadas).
+    *   **Merge (Fusión):** La consolidación oficial es la fusión del proyecto aprobado en la rama principal (`main`), firmada digitalmente con claves GPG por la autoridad técnica (Mesa de Consolidación) una vez que la ley ha sido formalmente sancionada y promulgada.
     *   **APIs (canales automáticos de consulta de datos) preparadas para RAG (Generación Aumentada por Recuperación):** Al exportar el repositorio en texto estructurado limpio (Markdown + YAML Frontmatter -encabezado de metadatos estructurados-), los ingenieros de datos pueden alimentar directamente bases de datos vectoriales e indexar las leyes en procesos RAG para LLMs (modelos de lenguaje a gran escala) sin necesidad de scrapers (extractores automáticos de datos) de PDFs ruidosos.

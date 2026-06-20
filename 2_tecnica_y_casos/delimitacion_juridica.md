@@ -15,7 +15,7 @@ Es una premisa jurídica fundamental de **Leyes.ar** que la adopción de herrami
 
 ## 2. La Ley como Algoritmo Lógico-Estructural
 
-El concepto de "Derecho como Código" (*Law as Code*) o la interpretación de la legislación como un algoritmo no pretende suplantar el criterio y la prudencia de los jueces, sino reconocer la estructura lógica intrínseca de la norma:
+El concepto de "Codificación digital de la legislación" o la interpretación de la legislación como un algoritmo no pretende suplantar el criterio y la prudencia de los jueces, sino reconocer la estructura lógica intrínseca de la norma:
 
 ### Lógica Condicional Preexistente
 Desde la escuela de la teoría general del derecho (Kelsen, Cossio), la norma jurídica se ha definido como un juicio hipotético de estructura condicional:
