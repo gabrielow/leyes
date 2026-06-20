@@ -6,19 +6,25 @@ El proyecto propone tratar a **la legislación como un sistema de código abiert
 
 ## Documentación del Proyecto
 
-El repositorio está estructurado en los siguientes documentos clave:
+El repositorio está estructurado en las siguientes carpetas y documentos clave:
 
-*   [propuesta.md](./propuesta.md): Documento estratégico integral que detalla la justificación conceptual y tecnológica de la solución, sus objetivos estratégicos (Misión, Visión, Objetivos) y las fases prácticas para su implementación gradual. Incluye una **Presentación e Introducción Gerencial** diseñada para tomadores de decisiones.
-*   [audiencias_y_comunicacion.md](./audiencias_y_comunicacion.md): Mapa de audiencias detallado (ciudadanos, estudiantes, abogados/jueces, legisladores, desarrolladores, sector empresarial y ONGs) con enfoques discursivos personalizados y una estrategia de comunicación e implementación en tres pasos.
-*   [impacto_analisis_git.md](./impacto_analisis_git.md): Estudio exhaustivo del impacto real del control de versiones en la legislación analizado desde sus tres dimensiones temporales: pasado (trazabilidad ex-post y determinismo jurídico), presente (consolidación inmediata y seguridad criptográfica) y futuro (simulaciones ex-ante y debate en Pull Requests -solicitudes de incorporación de cambios-).
-*   [ejemplos_practicos_git.md](./ejemplos_practicos_git.md): Nueve escenarios de uso prácticos e institucionales que ilustran la aplicación de conceptos de Git (diffs -comparación visual de cambios-, rollbacks -reversión a versiones anteriores-, branching -creación de ramas de debate-, CI/CD -automatización de procesos-, pull requests -propuestas de reformas-, forks -bifurcaciones de proyectos- y auditoría de partidas presupuestarias/tributarias) en el ámbito público real.
-*   [foda_leyes_git.md](./foda_leyes_git.md): Análisis estratégico FODA (Fortalezas, Oportunidades, Debilidades, Amenazas) con matriz cruzada y diagramas de estrategias para la viabilidad institucional de Leyes.ar.
-*   [explicacion_tres_perfiles.md](./explicacion_tres_perfiles.md): Guía didáctica y modular del concepto de "Derecho como Código" y el funcionamiento de Git explicados para tres perfiles de usuarios: no técnico, técnico-jurídico y tecnológico. Ideal para la generación de infografías y presentaciones.
+*   **Gestión del Proyecto:**
+    *   [ROADMAP.md](./ROADMAP.md): Ledger de Desarrollo y Hoja de Ruta. Centraliza la delimitación del alcance, el backlog de propuestas de mejora, las decisiones de diseño (ADRs) y el registro de correcciones.
+*   **1. Estrategia (`1_estrategia/`):**
+    *   [propuesta.md](./1_estrategia/propuesta.md): Documento estratégico integral que detalla la justificación conceptual y tecnológica de la solución, sus objetivos estratégicos (Misión, Visión, Objetivos), delimitación conceptual y las fases prácticas para su implementación gradual. Incluye una **Presentación e Introducción Gerencial** diseñada para tomadores de decisiones.
+    *   [foda.md](./1_estrategia/foda.md): Análisis estratégico FODA (Fortalezas, Oportunidades, Debilidades, Amenazas) con matriz cruzada y diagramas de estrategias para la viabilidad institucional de Leyes.ar.
+*   **2. Técnica y Casos de Uso (`2_tecnica_y_casos/`):**
+    *   [impacto_temporal.md](./2_tecnica_y_casos/impacto_temporal.md): Estudio del impacto del control de versiones en la legislación en sus tres dimensiones temporales (pasado, presente, futuro) e integración de los 9 escenarios prácticos de uso gubernamental y de transparencia cívica (diffs, rollbacks, branching, CI/CD, pull requests, forks y trazabilidad presupuestaria).
+    *   [delimitacion_juridica.md](./2_tecnica_y_casos/delimitacion_juridica.md): Estudio técnico-legal sobre la compatibilidad de las firmas de Git (GPG) con la Ley Nacional de Firma Digital N° 25.506 y la inalterabilidad de los códigos jurídicos sustanciales.
+*   **3. Comunicación (`3_comunicacion/`):**
+    *   [mapa_audiencias.md](./3_comunicacion/mapa_audiencias.md): Mapa de audiencias detallado (ciudadanos, estudiantes, abogados/jueces, legisladores, desarrolladores, sector empresarial y ONGs) con enfoques discursivos personalizados y una estrategia de comunicación e implementación en tres pasos.
+    *   [didactica_perfiles.md](./3_comunicacion/didactica_perfiles.md): Guía didáctica y modular del concepto de "Derecho como Código" y el funcionamiento de Git explicados para tres perfiles de usuarios: no técnico, técnico-jurídico y tecnológico. Ideal para la generación de infografías y presentaciones.
 
 ## Cómo Empezar
 
 Para explorar o colaborar en la iniciativa, recomendamos la siguiente lectura secuencial:
-1.  **Lectura Estratégica:** Iniciar con la Presentación Gerencial y la Misión del proyecto en [propuesta.md](./propuesta.md).
-2.  **Casos de Uso:** Revisar cómo se resuelven situaciones legislativas reales en [ejemplos_practicos_git.md](./ejemplos_practicos_git.md).
-3.  **Matriz de Comunicación:** Entender cómo se aborda a los distintos actores del ecosistema en [audiencias_y_comunicacion.md](./audiencias_y_comunicacion.md).
-4.  **Fundamentos Didácticos:** Utilizar [explicacion_tres_perfiles.md](./explicacion_tres_perfiles.md) como base conceptual para evangelización, charlas o diseño gráfico del proyecto.
+1.  **Delimitación y Backlog:** Iniciar leyendo el [ROADMAP.md](./ROADMAP.md) para comprender la delimitación del proyecto.
+2.  **Lectura Estratégica:** Continuar con la Presentación Gerencial y la Misión del proyecto en [propuesta.md](./1_estrategia/propuesta.md).
+3.  **Técnica e Impacto:** Revisar cómo se resuelven situaciones legislativas reales en [impacto_temporal.md](./2_tecnica_y_casos/impacto_temporal.md).
+4.  **Matriz de Comunicación:** Entender cómo se aborda a los distintos actores del ecosistema en [mapa_audiencias.md](./3_comunicacion/mapa_audiencias.md).
+5.  **Fundamentos Didácticos:** Utilizar [didactica_perfiles.md](./3_comunicacion/didactica_perfiles.md) como base conceptual para evangelización, charlas o diseño gráfico del proyecto.
