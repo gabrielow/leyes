@@ -1,8 +1,13 @@
 # Carpetas del sistema y temporales
 .DS_Store
 Thumbs.db
+desktop.ini
 *.tmp
 *.log
+
+# Google Drive (Archivos temporales y de sincronización)
+.tmp.drivedownload/
+.tmp.driveupload/
 
 # Carpetas del editor y herramientas
 .vscode/
